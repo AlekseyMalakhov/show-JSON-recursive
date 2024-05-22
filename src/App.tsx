@@ -11,7 +11,7 @@ const json = [
         ],
     },
     {
-        name: "dir2",
+        name: "dir3",
         value: [{ name: "file5.txt", value: "hello 5" }],
     },
 ];

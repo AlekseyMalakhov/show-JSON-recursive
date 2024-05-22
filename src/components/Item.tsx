@@ -17,7 +17,7 @@ type TypeItem = {
 };
 
 export default function Item({ value, name }: TypeItem) {
-    const [showChildren, setShowChildren] = useState(true);
+    const [showChildren, setShowChildren] = useState(false);
 
     const toggle = () => {
         if (showChildren) {
